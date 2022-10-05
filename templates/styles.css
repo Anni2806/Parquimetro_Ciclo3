@@ -1,0 +1,29 @@
+body{
+    background: #1894c5;
+}
+#welcome{
+    padding: 120px 0;
+    background: linear-gradient(rgb(37, 152, 187),black);
+}
+#servicios{ 
+    padding: 120px 0;
+    background: linear-gradient(rgb(0, 0, 0),rgb(37, 152, 187));
+}
+#servicios h2{
+    color: #ffbb00;
+    font-size: 50px;
+ 
+}
+#servicios .servicios-item{
+    text-align: center;
+    background: #29e005;
+    padding: 30px 40px;
+}
+#servicios .servicios-item i{
+    font-size: 60px;
+    color: blue;
+}
+#servicios .servicios-item:hover{
+    border-radius: 30px;
+    transition: .4s;
+}

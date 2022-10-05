@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Parquimetro</title>
+</head>
+<body style="background-color: rgb(229, 238, 241);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+        <img src="../templates/img/logo.png" alt="#" width="3%" height="10%">
+        <a class="navbar-brand" href="#">PARQUÍMETRO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="file:///C:/Users/Subtilizer/Desktop/Parquimetro/Proyecto_Ciclo3/Proyecto_Ciclo3/parquimetro/target/classes/templates/home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="file:///C:/Users/Subtilizer/Desktop/Parquimetro/Proyecto_Ciclo3/Proyecto_Ciclo3/parquimetro/target/classes/templates/consultarVehiculo.html">PARQUEADERO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="file:///C:/Users/Subtilizer/Desktop/Parquimetro/Proyecto_Ciclo3/Proyecto_Ciclo3/parquimetro/target/classes/templates/actualizarVehiculo.html">INGRESAR</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link " href="file:///C:/Users/Subtilizer/Desktop/Parquimetro/Proyecto_Ciclo3/Proyecto_Ciclo3/parquimetro/target/classes/templates/crearUsuario.html">REGISTRARSE</a>
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <center>
+        <h1 style="color: rgb(10, 138, 193); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-style:normal;">INICIAR SERVICIO</h1>
+        
+    </center>
+        <br>
+        <form class="row g-3">
+            <div class="container-xl">
+                <center><div class="col-4 m-auto">
+                    <label for="inputName" class="form-label" style="text-align:center;">USUARIO:</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="username">
+                </div></center>
+                <br>
+                <div class="col-4 m-auto">
+                    <label for="inputApellidos" class="form-label">FECHA:</label>
+                    <input type="datetime-local" class="form-control" id="inputApellidos" placeholder="Ingrese fecha y hora de entrada">
+                </div>
+                <div class="col-md-4 m-auto">
+                    <label for="inputTypeDoc" class="form-label">VEHÍCULO:</label>
+                    <select id="inputTypeDoc" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Automovil</option>
+                        <option>Camioneta</option>
+                        <option>Moto</option>
+                        <option>Bicicleta</option>
+                    </select>
+                </div>
+                <div class="col-md-4 m-auto">
+                    <label for="inputDoc" class="form-label">PLACA:</label>
+                    <input type="text" class="form-control" id="inputDoc" placeholder="XXX000">
+                </div>
+                <div class="col-md-4 m-auto">
+                    <label for="inputTypeDoc" class="form-label">TIEMPO:</label>
+                    <select id="inputTypeDoc" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>30 Min</option>
+                        <option>1 hora</option>
+                        <option>2 horas</option>
+                        <option>3 horas</option>
+                        <option>4 horas</option>
+                        <option>5 horas</option>
+                        <option>6 horas</option>
+                    </select>
+                </div>
+                <div class="col-md-4 m-auto">
+                    <label for="inputTypeDoc" class="form-label">MEDIO DE PAGO:</label>
+                    <select id="inputTypeDoc" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Efectivo</option>
+                        <option>Tarjeta débito</option>
+                        <option>Tarjeta crédito</option>
+                    </select>
+                </div>
+                <br>
+                <center><div class="col-12">
+                    <button type="submit" class="btn btn-primary">Start</button>
+                </div></center>
+            </div>
+        </form>
+</body> 
+</html>
